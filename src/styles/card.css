@@ -44,6 +44,9 @@
     .card h2 {
         font-size: 1.2rem !important;
     }
+    .card .profile-name h2 .tag {
+        font-size: 1rem !important;
+    }
     .card .profile-name {
         height: 90% !important;
     }
@@ -139,6 +142,11 @@
     display: flex;
     flex-direction: column;
     height: 60%;
+}
+
+.card .profile-name h2 .tag {
+    font-size: 1.1rem;
+    color: var(--middle-gray);
 }
 
 .card .card-discord-profile .profile-name .badge {
