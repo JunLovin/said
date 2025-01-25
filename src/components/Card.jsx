@@ -71,7 +71,7 @@ function Card() {
   return (
     <div className="card js-tilt">
       <h1>Hey World! I&#39;m JunLovin</h1>
-      <p>Hi! you, person that i don&apos;t know but i&apos;m glad to see you here. I&apos;m a developer and a student. I study autodidact in different web pages, I love coding and I&apos;m a big fan of the LoFi genre. Also I&apos;m coffee lover ♥️.</p>
+      <p>Hi you!, person that i don&apos;t know but i&apos;m glad to see you here. I&apos;m a developer and a student. I study autodidact in different web pages, I love coding and I&apos;m a big fan of the LoFi genre. Also I&apos;m coffee lover ♥️.</p>
       <div className="card-social-media">
         <ul>
           {socialMedia.map(({ name, url, icon }) => (
