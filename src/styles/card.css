@@ -25,8 +25,35 @@
 
 @media only screen and (max-width: 700px) {
     .card {
-        width: 27rem;
-        height: 40rem;
+        width: 22rem;
+        height: 35rem;
+    }
+    .card h1 {
+        font-size: 1.5rem;
+    }
+    .card p {
+        width: 100% !important;
+    }
+    .card .card-discord-profile .add-friend {
+        display: none !important;
+    }
+    .card .music-player .music-player-container .music-player-image .music-player-image {
+        width: 5rem !important;
+        height: 5rem !important;
+    }
+    .card h2 {
+        font-size: 1.2rem !important;
+    }
+    .card .profile-name {
+        height: 90% !important;
+    }
+    .card .profile-name .badge-container img {
+        width: 1.3rem !important;
+        height: 1.3rem !important;
+    }
+    .card .profile-name .text-status p {
+        font-size: .9rem !important;
+        padding-right: .5rem;
     }
 }
 
