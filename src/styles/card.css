@@ -1,0 +1,218 @@
+.card {
+    border: 3px solid var(--light-brown);
+    background: transparent;
+    color: var(--beige);
+    z-index: 0;
+    width: 55rem;
+    height: 40rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    backdrop-filter: blur(5px);
+}
+
+@media only screen and (max-width: 1400px) {
+    .card {
+        width: 48rem;
+        height: 35rem;
+    }
+    .card .card-social-media ul {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        width: 27rem;
+        height: 40rem;
+    }
+}
+
+.card .card-social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card p {
+    width: 70%;
+    margin-top: .5rem;
+    line-height: 1.5;
+}
+
+.card .card-social-media ul {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.card .card-social-media ul li {
+    list-style: none;
+    border: 2px solid var(--dark-brown);
+    border-radius: 50%;
+    padding: .2rem;
+    margin: 1rem;
+    transition: border-color .3s ease-in-out, backdrop-filter 200ms linear;
+}
+
+.card .card-social-media ul li:hover {
+    border-color: var(--light-brown);
+}
+
+.card .card-social-media ul li:active {
+    backdrop-filter: blur(10px);
+}
+
+.card .card-social-media ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .icon {
+    stroke: var(--beige);
+    fill: var(--beige);
+}
+
+.card .card-discord-profile {
+    width: 100%;
+    height: 9rem;
+    border: 2px solid var(--dark-brown);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.card .card-discord-profile .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .card-discord-profile .profile-container .profile-image {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.card .card-discord-profile .discordStatus {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background: var(--green-status);
+    position: relative;
+    top: 1.5rem;
+    right: 1.4rem;
+}
+
+.card .card-discord-profile .profile-name {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+.card .card-discord-profile .profile-name .badge {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.card .card-discord-profile .profile-name .badge-quest {
+    margin-right: .3rem;
+}
+
+.card .card-discord-profile .profile-name .text-status {
+    background-color: var(--beige);
+    border-radius: 1rem;
+    color: var(--dark-brown);
+}
+
+.card .card-discord-profile .profile-name .text-status p {
+    width: 10rem;
+    height: 1.5rem;
+    font-size: 1.rem;
+    display: flex;
+    padding-left: .2rem;
+    margin-top: .1rem;
+}
+
+.card .card-discord-profile .add-friend {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card .card-discord-profile .add-friend button {
+    color: var(--beige);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    background: transparent;
+    border: 2px solid var(--dark-brown);
+    cursor: pointer;
+    transition: border-color .3s ease-in-out, backdrop-filter 200ms linear;
+}
+
+.card .card-discord-profile .add-friend button:hover {
+    border-color: var(--light-brown);
+}
+
+.card .card-discord-profile .add-friend button:active {
+    backdrop-filter: blur(10px);
+}
+
+.card .music-player {
+    margin-top: 1rem;
+    width: 100%;
+    height: 9rem;
+    border: 2px solid var(--dark-brown);
+    border-radius: 1rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card .music-player .music-player-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card .music-player .music-player-container .music-player-image .music-player-image {
+    width: 7rem;
+    height: 7rem;
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+
+.card .music-player .music-player-container .music-player-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+.card .music-player .music-player-container .music-player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .music-player .music-player-container .music-player-controls .play-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.card .music-player .music-player-container .music-player-controls .play-button img {
+    width: 2rem;
+    height: 2rem;
+}

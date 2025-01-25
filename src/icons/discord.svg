@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="svg2" viewBox="0 0 500 670" width="44" height="44" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <desc>Source: openclipart.org/detail/209545</desc>
+  <defs>
+    <linearGradient id="color-0" bx:pinned="true" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -4.170125, 13.900415)">
+      <stop style="stop-color: rgb(255, 234, 197);"/>
+    </linearGradient>
+  </defs>
+  <path d="M 164.659 305.113 C 164.659 320.2 181.917 329.623 195.697 322.08 C 202.111 318.572 206.043 312.108 206.043 305.113 C 206.043 290.028 188.806 280.603 175.005 288.148 C 168.611 291.634 164.659 298.099 164.659 305.113" style="fill: none; stroke: url(&quot;#color-0&quot;); stroke-width: 20px;"/>
+  <path d="M 288.813 305.113 C 288.813 320.2 306.07 329.623 319.851 322.08 C 326.265 318.572 330.197 312.108 330.197 305.113 C 330.197 290.028 312.96 280.603 299.159 288.148 C 292.765 291.634 288.813 298.099 288.813 305.113" style="fill: none; stroke: url(&quot;#color-0&quot;); stroke-width: 20px;"/>
+  <path d="M 319.851 403.073 C 319.851 422.664 350.889 461.848 361.235 461.848 C 392.273 461.848 419.856 429.19 433.658 403.073 C 447.459 370.412 444.004 288.794 402.62 177.767 C 372.47 157.881 340.543 151.515 309.505 148.38 L 289.391 186.054 C 261.642 181.509 233.295 181.509 205.526 186.054 L 185.351 148.38 C 154.311 151.515 122.384 157.881 92.236 177.767 C 50.852 288.794 47.395 370.412 61.198 403.073 C 74.998 429.19 102.582 461.848 133.62 461.848 C 143.965 461.848 175.005 422.664 175.005 403.073" style="fill: none; stroke: url(&quot;#color-0&quot;); stroke-width: 20px;"/>
+  <path d="M 143.965 393.277 C 216.389 412.87 278.467 412.87 350.889 393.277" style="fill: none; stroke: url(&quot;#color-0&quot;); stroke-width: 15px;"/>
+</svg>

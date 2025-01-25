@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="svg2" viewBox="0 0 500 670" width="44" height="44" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <desc>Source: openclipart.org/detail/209545</desc>
+  <defs>
+    <linearGradient id="color-0" bx:pinned="true" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.448246, 0, 0, 1.916624, 61.642416, 123.908248)">
+      <stop style="stop-color: rgb(255, 234, 197);"/>
+    </linearGradient>
+  </defs>
+  <path stroke="none" d="M -42.58 50.707 L 422.063 50.707 L 422.063 391.637 L -42.58 391.637 L -42.58 50.707 Z" fill="none" style=""/>
+  <path d="M 41.91 229.179 C 41.91 207.448 62.763 189.846 88.508 189.846 L 414.687 189.846 C 440.409 189.846 461.285 207.448 461.285 229.179 L 461.285 425.841 C 461.285 447.553 440.409 465.174 414.687 465.174 L 88.508 465.174 C 62.763 465.174 41.91 447.553 41.91 425.841 L 41.91 229.179 Z" style="fill: none; stroke: url(&quot;#color-0&quot;); stroke-width: 20px;"/>
+  <path d="M 41.91 229.179 L 251.598 347.176 L 461.285 229.179" style="fill: none; stroke: url(&quot;#color-0&quot;); stroke-width: 20px;"/>
+</svg>
