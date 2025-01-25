@@ -85,7 +85,7 @@ function Card() {
           <div className="discordStatus" title="Available"></div>
         </div>
         <div className="profile-name">
-          <h2>junlovin</h2>
+          <h2>junlovin<span className="tag">#3878</span></h2>
           <div className="badge-container">
             <a href="https://discord.com/ads/quests" target="_blank"><img src={QuestBadge} alt="Quest Badge" className="badge-quest badge"/></a>
             <a href="https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge" target="_blank"><img src={DeveloperBadge} alt="Developer Badge" className="badge-developer badge"/></a>
