@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from 'react'
 import Discord from '@icons/discord.svg'
 import Github from '@icons/github.svg'
 import Mail from '@icons/mail.svg'
-import Profile from '@public/said_pfp.jpeg'
+import Profile from '@public/pfp.webp'
 import QuestBadge from '@icons/discordQuestBadge.png'
 import DeveloperBadge from '@icons/discordDeveloperBadge.png'
 import AddFriend from '@icons/addFriend.svg'
@@ -70,8 +70,8 @@ function Card() {
 
   return (
     <div className="card js-tilt">
-      <h1>Hey World! I&#39;m JunLovin</h1>
-      <p>Hi you!, person I don&apos;t know but I&apos;m glad to see you here. I&apos;m a developer and a student. I&apos;m self-taught in different websites, I love coding and I&apos;m a big fan of LoFi genre. I&apos;m also a coffee lover ♥️.</p>
+      <h1>Hey! I&#39;m Said Ruiz</h1>
+      <p className="bio">I am a software engineering student, I am learning completely self-taught. I love learning new things and I&apos;m looking to improve myself every day. If you want to work with me or give me feedback you can contact me through one of my social networks. ♥️</p>
       <div className="card-social-media">
         <ul>
           {socialMedia.map(({ name, url, icon }) => (
@@ -87,8 +87,8 @@ function Card() {
         <div className="profile-name">
           <h2>junlovin<span className="tag">#3878</span></h2>
           <div className="badge-container">
-            <a href="https://discord.com/ads/quests" target="_blank"><img src={QuestBadge} alt="Quest Badge" className="badge-quest badge"/></a>
             <a href="https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge" target="_blank"><img src={DeveloperBadge} alt="Developer Badge" className="badge-developer badge"/></a>
+            <a href="https://discord.com/ads/quests" target="_blank"><img src={QuestBadge} alt="Quest Badge" className="badge-quest badge"/></a>
           </div>
           <div className="text-status">
             <p>🌺 Have a nice day!</p>

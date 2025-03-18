@@ -72,6 +72,10 @@
     line-height: 1.5;
 }
 
+.bio {
+    text-align: center;
+}
+
 .card .card-social-media ul {
     display: flex;
     flex-direction: row;
@@ -134,7 +138,7 @@
     border-radius: 50%;
     background: var(--green-status);
     position: relative;
-    top: 1.5rem;
+    top: 1.8rem;
     right: 1.4rem;
 }
 
@@ -152,9 +156,6 @@
 .card .card-discord-profile .profile-name .badge {
     width: 1.5rem;
     height: 1.5rem;
-}
-
-.card .card-discord-profile .profile-name .badge-quest {
     margin-right: .3rem;
 }
 
@@ -171,6 +172,9 @@
     display: flex;
     padding-left: .2rem;
     margin-top: .1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: .2rem;
 }
 
 .card .card-discord-profile .add-friend {
