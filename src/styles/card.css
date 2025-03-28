@@ -142,6 +142,18 @@
     right: 1.4rem;
 }
 
+.card .tooltip {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    padding: .5rem;
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    left: 3rem;
+    opacity: 0;
+    transition: all 100ms ease-in-out;
+}
+
 .card .card-discord-profile .profile-name {
     display: flex;
     flex-direction: column;

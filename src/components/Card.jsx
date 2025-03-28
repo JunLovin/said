@@ -34,6 +34,7 @@ const socialMedia = [
 function Card() {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(new Audio(GotItHandled));
+  const tooltipRef = useRef(null)
   audioRef.current.volume = 0.2;
 
   useEffect(() => {
@@ -82,7 +83,12 @@ function Card() {
       <div className="card-discord-profile profile">
         <div className="profile-container">
           <img src={Profile} alt="Discord Profile" className="profile-image"/>
-          <div className="discordStatus" title="Available"></div>
+          <div className="tooltip" ref={tooltipRef}><h3>Message me!</h3></div>
+          <div className="discordStatus" onMouseEnter={() => {
+            tooltipRef.current.style.opacity = 1;
+          }} onMouseLeave={() => {
+            tooltipRef.current.style.opacity = 0;
+          }}></div>
         </div>
         <div className="profile-name">
           <h2>junlovin<span className="tag">#3878</span></h2>
